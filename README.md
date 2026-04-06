@@ -4,6 +4,11 @@ Public release notes and changelogs for Forum.
 
 ## Latest Release
 
+- [Forum 1.0.6: What's New](./releases/1.0.6/whats-new.md)
+- [Forum 1.0.6: Technical Release Notes](./releases/1.0.6/release-notes.md)
+
+## Previous Releases
+
 - [Forum 1.0.3: What's New](./releases/1.0.3/whats-new.md)
 - [Forum 1.0.3: Technical Release Notes](./releases/1.0.3/release-notes.md)
 
@@ -16,6 +21,11 @@ Public release notes and changelogs for Forum.
 
 The current public release line covers the move from a passport-and-wallet prototype into a fuller social voting product with:
 
+- follow system and social graph
+- threaded comments and discussions
+- hashtags and content discovery
+- improved multilingual auto translation
+- enhanced on-chain vote transparency
 - proposal-linked lottery support
 - post and proposal publishing
 - comments and threads
