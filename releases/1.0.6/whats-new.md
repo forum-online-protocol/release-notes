@@ -1,39 +1,53 @@
 # What's New In Forum 1.0.6
 
 **Version:** `1.0.6`
-**Prepared:** `2026-04-05`
+**Initial Release:** `2026-04-05`  
+**Updated:** `2026-04-15`
 
-This update brings social features, better content discovery, and improved transparency for on-chain voting. You can now follow accounts, reply to comments in threaded discussions, and discover content through hashtags and search.
+Forum `1.0.6` now includes an extended update pass focused on daily reliability, clearer social state, and better compatibility for legacy content.
 
 ## Highlights
 
-### Follow Accounts
+### Smart Notifications For Following Feed
 
-Stay updated with users you care about by following their activity.
+- New push notifications for posts from followed accounts.
+- Notification behavior can be configured in Settings.
+- Smarter delivery logic to avoid noisy push behavior.
 
-### Threaded Comments
+### Clearer Following And Profile State
 
-You can now reply to comments, enabling structured discussions.
+- Following state is more explicit (clear "you are following" state).
+- Unfollow actions now include confirmation.
+- Verification and real-name indicators are more consistent in profile/feed views.
 
-### Hashtags And Search
+### Better Legacy Compatibility
 
-Discover content easier with hashtags and search by tags.
+- Legacy authors are shown more reliably in profile and feed contexts.
+- Better visibility of avatar/identity data for older content paths.
 
-### Improved Auto Translation
+### Better Voting Transparency And Stats
 
-More accurate and natural translations across supported languages.
+- Public stats now include `registered users` coverage.
+- Unique voter count calculation was corrected.
+- Vote details and verification cues are clearer in practice.
 
-### Enhanced On-Chain Vote Details
+### Smoother App Experience
 
-Better visibility into blockchain data for each vote, including verification insights.
+- Fixed a crash path after NFC verification in post flow.
+- Reduced duplicate translation requests.
+- Fixed iOS feed bottom-gap/safe-area issues.
+- Improved feed card readability on smaller screens.
 
-## Performance And Fixes
+## Already Included In 1.0.6 Base
 
-- Performance optimizations for a faster and smoother experience.
-- General bug fixes and stability improvements.
+- Follow accounts
+- Threaded comments
+- Hashtags and search
+- Improved multilingual translation
+- Enhanced on-chain vote transparency
 
 ## In Short
 
-Forum 1.0.6 adds social graph features (follow), deeper discussion tools (threaded comments), and better content discovery (hashtags and search). Auto translation is more accurate, on-chain vote details are more transparent, and the app is faster and more stable overall.
+Forum `1.0.6` now combines social features with stronger reliability: clearer following/profile behavior, smarter notifications, better legacy profile/feed support, and important stability fixes across mobile.
 
 For technical details, see [release-notes.md](./release-notes.md).
