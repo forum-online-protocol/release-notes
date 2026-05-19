@@ -27,10 +27,9 @@ The current public release line covers the move from a passport-and-wallet proto
 - safer wallet migration, backup, and recovery flows
 - passkey-based wallet access preparation
 - encrypted QR wallet transfer and recovery support
-- lottery rewards and voting-linked participation
 - Dual Network pre-mainnet mode
 - Smart Feed ranking and cleaner discovery
-- improved wallet, feed, profile, lottery, and NFC reliability
+- improved wallet, feed, profile, voting, and NFC reliability
 - follow system and social graph
 - threaded comments and discussions
 - hashtags and content discovery

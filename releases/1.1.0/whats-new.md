@@ -4,9 +4,9 @@
 **Prepared:** `2026-05-19`  
 **Release Window:** `2026-04-16` - `2026-05-19`
 
-Forum `1.1.0` introduces three important foundations for the next stage of Forum: Wallet V2, Lottery, and Dual Network mode. It also adds a smarter feed, better wallet recovery tools, easier wallet sending, and fixes for older account, profile, voting, search, and NFC flows.
+Forum `1.1.0` introduces two important foundations for the next stage of Forum: Wallet V2 and Dual Network mode. It also adds a smarter feed, better wallet recovery tools, easier wallet sending, and fixes for older account, profile, voting, search, and NFC flows.
 
-These new features will roll out gradually through cohorts. Some users may see Wallet V2, Lottery, or Dual Network mode earlier than others while the rollout is checked and expanded.
+These new features will roll out gradually through cohorts. Some users may see Wallet V2 or Dual Network mode earlier than others while the rollout is checked and expanded.
 
 ## Highlights
 
@@ -17,13 +17,6 @@ These new features will roll out gradually through cohorts. Some users may see W
 - Existing users can be moved into Wallet V2 through a guided upgrade flow.
 - Older Wallet V1 access remains available for people who still need it during the transition.
 - The app blocks confusing edge cases, like creating a duplicate V2 wallet or restoring the wrong wallet.
-
-### Introducing Lottery
-
-- Forum now introduces Lottery as a new product feature.
-- Lottery rewards are connected to participation and voting flows.
-- Rewards now use a simple instant fixed-payout model, so the result is easier to understand.
-- Lottery visibility is controlled through rollout cohorts, so only the intended users see it first.
 
 ### Dual Network Mode
 
@@ -75,6 +68,6 @@ These new features will roll out gradually through cohorts. Some users may see W
 
 ## In Short
 
-Forum `1.1.0` makes the app feel safer and more complete: Wallet V2 gives Forum a stronger wallet foundation, Lottery introduces rewards around participation, Dual Network mode prepares the path toward mainnet, the feed is better at surfacing useful posts, and older account, wallet, voting, profile, search, and NFC flows are more reliable.
+Forum `1.1.0` makes the app feel safer and more complete: Wallet V2 gives Forum a stronger wallet foundation, Dual Network mode prepares the path toward mainnet, the feed is better at surfacing useful posts, and older account, wallet, voting, profile, search, and NFC flows are more reliable.
 
 For technical details, see [release-notes.md](./release-notes.md).

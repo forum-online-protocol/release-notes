@@ -10,9 +10,9 @@
 
 ### Summary
 
-Forum `1.1.0` introduces Wallet V2, Lottery, and Dual Network pre-mainnet mode. It also improves the app around the flows users touch most: feed discovery, wallet backup and recovery, wallet sending, voting, search, profiles, NFC passport scanning, and older-account compatibility.
+Forum `1.1.0` introduces Wallet V2 and Dual Network pre-mainnet mode. It also improves the app around the flows users touch most: feed discovery, wallet backup and recovery, wallet sending, voting, search, profiles, NFC passport scanning, and older-account compatibility.
 
-Wallet V2, Lottery, Dual Network mode, and related Identity V2 paths are rolled out gradually through cohorts. Availability can differ by user while each cohort is validated and the rollout expands.
+Wallet V2, Dual Network mode, and related Identity V2 paths are rolled out gradually through cohorts. Availability can differ by user while each cohort is validated and the rollout expands.
 
 ### New Features
 
@@ -32,13 +32,6 @@ Wallet V2, Lottery, Dual Network mode, and related Identity V2 paths are rolled 
 - Added gas estimates before wallet sends.
 - Made wallet network selection clearer and less mixed with normal wallet actions.
 - Moved fallback, export, and recovery tools into Settings.
-
-#### Lottery
-
-- Introduced Lottery as a new Forum product surface.
-- Connected Lottery behavior to participation and voting flows.
-- Added a simpler instant fixed-payout reward model.
-- Added controlled visibility for the intended rollout groups.
 
 #### Dual Network Mode
 
@@ -91,10 +84,8 @@ Wallet V2, Lottery, Dual Network mode, and related Identity V2 paths are rolled 
 - Improved profile metadata and name verification refresh behavior.
 - Fixed post menu and profile post actions.
 
-#### Voting And Lottery Fixes
+#### Voting Fixes
 
-- Fixed lottery reward paid status.
-- Fixed lottery visibility and rollout edge cases.
 - Fixed pending initiative voting and vote stats loading.
 - Fixed vote confirmation modal layout on short screens.
 - Preserved vote verification nonce values correctly.
@@ -127,10 +118,8 @@ Wallet V2, Lottery, Dual Network mode, and related Identity V2 paths are rolled 
 - `Wallet backup and recovery`
 - `Encrypted QR wallet transfer`
 - `Wallet QR send and gas estimates`
-- `Lottery`
 - `Dual Network pre-mainnet mode`
 - `Smart Feed`
-- `Lottery fixed payout`
 - `Voting reliability`
 - `Search and link handling`
 - `Profile and follow consistency`
@@ -140,6 +129,6 @@ Wallet V2, Lottery, Dual Network mode, and related Identity V2 paths are rolled 
 
 ### Notes
 
-- Wallet V2, Lottery, Dual Network mode, and Identity V2 remain gradually rolled out through cohorts rather than broadly opened to every user at once.
+- Wallet V2, Dual Network mode, and Identity V2 remain gradually rolled out through cohorts rather than broadly opened to every user at once.
 - This release note focuses on product features and user-visible fixes; internal deployment and infrastructure work is intentionally omitted.
 - This release note is based on `v2` commits merged between `2026-04-16` and `2026-05-19`.
