@@ -12,6 +12,8 @@
 
 Forum `1.1.0` introduces Wallet V2, Lottery, and Dual Network pre-mainnet mode. It also improves the app around the flows users touch most: feed discovery, wallet backup and recovery, wallet sending, voting, search, profiles, NFC passport scanning, and older-account compatibility.
 
+Wallet V2, Lottery, Dual Network mode, and related Identity V2 paths are rolled out gradually through cohorts. Availability can differ by user while each cohort is validated and the rollout expands.
+
 ### New Features
 
 #### Wallet V2
@@ -138,6 +140,6 @@ Forum `1.1.0` introduces Wallet V2, Lottery, and Dual Network pre-mainnet mode. 
 
 ### Notes
 
-- Wallet V2 and Identity V2 remain gradually rolled out rather than broadly opened to every user at once.
+- Wallet V2, Lottery, Dual Network mode, and Identity V2 remain gradually rolled out through cohorts rather than broadly opened to every user at once.
 - This release note focuses on product features and user-visible fixes; internal deployment and infrastructure work is intentionally omitted.
 - This release note is based on `v2` commits merged between `2026-04-16` and `2026-05-19`.

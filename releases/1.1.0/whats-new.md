@@ -6,6 +6,8 @@
 
 Forum `1.1.0` introduces three important foundations for the next stage of Forum: Wallet V2, Lottery, and Dual Network mode. It also adds a smarter feed, better wallet recovery tools, easier wallet sending, and fixes for older account, profile, voting, search, and NFC flows.
 
+These new features will roll out gradually through cohorts. Some users may see Wallet V2, Lottery, or Dual Network mode earlier than others while the rollout is checked and expanded.
+
 ## Highlights
 
 ### Introducing Wallet V2
@@ -21,13 +23,13 @@ Forum `1.1.0` introduces three important foundations for the next stage of Forum
 - Forum now introduces Lottery as a new product feature.
 - Lottery rewards are connected to participation and voting flows.
 - Rewards now use a simple instant fixed-payout model, so the result is easier to understand.
-- Lottery visibility is controlled during rollout, so only the intended users see it first.
+- Lottery visibility is controlled through rollout cohorts, so only the intended users see it first.
 
 ### Dual Network Mode
 
 - Forum now has a Dual Network mode for the pre-mainnet stage.
 - The app can prepare users and features for both the current test network and the upcoming mainnet path.
-- Network switching is controlled and gradual, so users are not pushed into mainnet behavior before it is ready.
+- Network switching is controlled through cohorts, so users are not pushed into mainnet behavior before it is ready.
 - This gives Forum a safer bridge from Sepolia testing toward Polygon mainnet readiness.
 
 ### Smarter Feed
